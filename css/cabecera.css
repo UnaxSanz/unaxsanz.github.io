@@ -12,6 +12,7 @@ body {
     width: 70%;
     margin: auto;
     position: relative;
+    height: 50px;
 }
 
 .cabecera a {
