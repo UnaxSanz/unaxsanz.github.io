@@ -8,4 +8,12 @@ body {
     text-align: center;
     padding: 5px;
 }
+.col1 {
+    max-width: 150px;
+        background-color: rebeccapurple;
+        float: inline-end;
+        border: 3px solid black;
+        margin-top: 20px;
+        margin-inline: 4%;
+}
 
