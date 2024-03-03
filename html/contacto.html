@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>contacto</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    
+    <link rel='stylesheet' type='text/css' media='screen' href='/css/contacto.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='/css/footer.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <div class="fondo">
+        <h1>Contacta con nosotros:</h1>
+        <form action="/submit_form" method="post">
+          <label for="name">Nombre:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Informacion relevante:</label>
+          <textarea id="message" name="message" required></textarea>
+
+          <input type="submit" value="Send Message" />
+        </form>
+    </div> 
+</body>
+</html>
