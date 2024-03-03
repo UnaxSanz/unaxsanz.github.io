@@ -2,9 +2,14 @@ body {
     background-image: url(../images/fondo.jpg);
 }
 
-.cuerpo {
-    width: 300px;
-    background-color: black;
+.caza {
+    float: left;
     text-align: center;
-    padding: 5px;
+    background-color: black;
+}
+
+.pesca {
+    float: right;
+    text-align: center;
+    background-color: darkgreen;
 }
