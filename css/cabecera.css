@@ -2,23 +2,24 @@ body {
     margin: 0;
 }
 
-.cabecera {
-    font-family: Arial, sans-serif;
-    background-color: #191919;
-    font-size: 16px;
-}
-
 .menu {
     width: 100%;
     margin: auto;
     position: relative;
     height: 100px;
+    
+}
+
+.cabecera h1 {
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .cabecera a {
     cursor: pointer;
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 .cabecera a:hover {
@@ -34,6 +35,7 @@ body {
 .icono {
     font-size: 20px;
     margin: 10px;
+    margin-left: 300px;
     width: 70px;
     height: auto;
 }
@@ -43,7 +45,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 10px;
-    background-color: #f8f9fa; /* Cambia el color de fondo según tus preferencias */
+    background-color: rgba(0,100,0,0.8);
 }
 
 .menu {
@@ -53,8 +55,8 @@ body {
 
 .icono {
     margin-right: 10px;
-    width: 40px; /* Ajusta el tamaño del icono según tus necesidades */
-    height: 40px;
+    width: 100px; 
+    height: 100px;
 }
 
 .dropdown {
